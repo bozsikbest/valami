@@ -1,0 +1,14 @@
+header {
+    position: fixed;
+    width: 103%;
+    height: 5%;
+    background-color: rgba(100,100,100,80);
+    margin-left: -3%;
+    margin-top: -0.5%;
+}
+header h2{
+    display: inline;
+    margin-right: 13%;
+    margin-left: 13%;
+    cursor: pointer;
+}
