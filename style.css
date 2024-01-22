@@ -1,14 +1,26 @@
 header {
     position: fixed;
     width: 103%;
-    height: 5%;
+    height: 7%;
     background-color: rgba(100,100,100,80);
     margin-left: -3%;
     margin-top: -0.5%;
 }
-header h2{
+header a{
+    width: 12%;
     display: inline;
     margin-right: 13%;
     margin-left: 13%;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    color: darkgray;
 }
