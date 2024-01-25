@@ -24,3 +24,10 @@ a:visited {
 a:hover {
     color: darkgray;
 }
+.active {
+    text-decoration: underline;
+    cursor: not-allowed;
+}
+.active:hover {
+    color: black;
+}
