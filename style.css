@@ -31,3 +31,8 @@ a:hover {
 .active:hover {
     color: black;
 }
+@media only screen and (max-width: 600px) {
+    header a {
+        color: red;
+    }
+}
