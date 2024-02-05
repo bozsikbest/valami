@@ -5,6 +5,8 @@ header {
     background-color: rgba(100,100,100,80);
     margin-left: -3%;
     margin-top: -0.5%;
+    display: var(--display);
+
 }
 header a{
     width: 12%;
@@ -17,7 +19,14 @@ header a{
     font-size: 1.6em;
     font-weight: bold;
 }
+h1{
+    color: var(--var);
+}
 
+:root{
+    --var: green;
+    --display: block;
+}
 a:visited {
     color: black;
 }
@@ -31,8 +40,15 @@ a:hover {
 .active:hover {
     color: black;
 }
+body:has(#piros:checked){
+    --var: red;
+}
+
 @media only screen and (max-width: 600px) {
     header a {
         color: red;
-    }
+            }
+            :root {
+                --display: none;
+            }
 }
